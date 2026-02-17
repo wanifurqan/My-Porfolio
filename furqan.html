@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio | Furqan Fayaz Wani</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f6f9;
+            color: #333;
+        }
+
+       
+        nav {
+            background: #111;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00bcd4;
+        }
+
+
+        .hero {
+            background: linear-gradient(to right, #0d6efd, #00bcd4);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #0d6efd;
+        }
+
+        .card-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            width: 280px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            margin: 10px 0;
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media(max-width:768px){
+            .hero h1{
+                font-size:28px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="resume.html">Resume</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+
+<div class="hero">
+    <img src="My photo.jpeg" alt="Profile Photo">
+    <h1>Furqan Fayaz Wani</h1>
+    <p>Web Developer | BCA Student | Learner</p>
+</div>
+
+
+<section>
+    <h2>About Me</h2>
+    <p>
+        I am a passionate BCA student from Kashmir, India.
+        I love creating clean and simple websites using HTML and continuously improving my skills in Web Development.
+    </p>
+</section>
+
+
+<section>
+    <h2>Education</h2>
+    <div class="card-container">
+        <div class="card">
+            <h3>10th & 12th</h3>
+            <p>Higher Secondary School Dangiwacha</p>
+        </div>
+
+        <div class="card">
+            <h3>BCA</h3>
+            <p>Government Degree College Sopore</p>
+            <p>Affiliated to University of Kashmir</p>
+        </div>
+    </div>
+</section>
+
+
+<section>
+    <h2>Technical Skills</h2>
+    <div class="card-container">
+        <div class="card">
+            <ul>
+                <li>HTML</li>
+                <li>Basic CSS</li>
+                <li>C Programming</li>
+                <li>Python (Basics)</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+<section>
+    <h2>Contact Information</h2>
+    <p>Email: furqanfayaz83@gmail.com</p>
+    <p>Phone: +91 7889335597</p>
+    <p>Location: Jammu & Kashmir, India</p>
+</section>
+
+<footer>
+    <p>© 2026 Furqan Fayaz Wani | Designed with HTML & CSS</p>
+</footer>
+
+</body>
+</html>
